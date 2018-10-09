@@ -1,0 +1,36 @@
+html,
+body {
+  min-height: 100%;
+  background: #151718;
+  /* v2 */
+  background: rgb(187, 179, 179);
+}
+
+.App {
+  font-family: sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: start;
+  align-content: flex-start;
+}
+
+pre {
+  margin: 0;
+}
+
+.CodeMirror {
+  height: auto;
+  width: 100%;
+  border-radius: 3px;
+}
+
+.Console {
+  -webkit-box-shadow: inset 0px 2px 16px -4px rgba(0, 0, 0, 1);
+  -moz-box-shadow: inset 0px 2px 16px -4px rgba(0, 0, 0, 1);
+  box-shadow: inset 0px 2px 16px -4px rgba(0, 0, 0, 1);
+}
+
+.ReactCodeMirror {
+  width: 100%;
+}
